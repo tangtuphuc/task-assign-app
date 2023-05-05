@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: deploy-helper/nginx/Dockerfile.nginx
     ports:
-      - 8080:80
+      - 80:80
     depends_on:
       - php-fpm
 
